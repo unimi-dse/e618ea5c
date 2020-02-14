@@ -1,8 +1,8 @@
 # Define server logic required to draw a line graph and to show mean, max and min values
 server <- function(input, output,session) {
 
-  shiny::output$mtble <-renderPrint({
-    ( mean (valori ))
+  output$mtble <-renderPrint({
+    (mean (jsonE$Temperature$Value))
 
   })
 
@@ -10,9 +10,9 @@ server <- function(input, output,session) {
 
 
 
-    (max(valori))})
+    (max(jsonE$Temperature$Value))})
 
-  shiny::output$mtble4 <-renderPrint({(min(valori))
+  shiny::output$mtble4 <-renderPrint({(min(jsonE$Temperature$Value))
 
 
   })
@@ -26,5 +26,4 @@ server <- function(input, output,session) {
 
   )
 }
-#start shinyApp
-shinyApp(ui = ui, server = server)
+
