@@ -16,9 +16,7 @@ require(IfamazonratingsReliable)
 ```
 Once installed the needed packages (shiny, httr, jsonlite, ggplot2, DT, devtools), it's possible to call the following functions:
 
+```run()```
 ```
-run()
-```
-```
-server()
+```server()```
 ```
