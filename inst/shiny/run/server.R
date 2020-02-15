@@ -2,7 +2,7 @@
 server <- function(input, output,session) {
 
   output$mtble <-renderPrint({
-    (mean (jsonE$Temperature$Value))
+    ( mean (jsonE$Temperature$Value ))
 
   })
 
@@ -12,16 +12,16 @@ server <- function(input, output,session) {
 
     (max(jsonE$Temperature$Value))})
 
-  shiny::output$mtble4 <-renderPrint({(min(jsonE$Temperature$Value))
+  output$mtble4 <-renderPrint({(min(jsonE$Temperature$Value))
 
 
   })
 
-  ggplot2::output$Graph <- renderPlot(
-    ggplot2::ggplot(jsonE, aes(x=jsonE$DateTime, y=jsonE$Temperature$Value,group=1 )) +
+  output$Graph <- renderPlot(
+    ggplot2::ggplot(jsonE, ggplot2::aes(x=jsonE$DateTime, y=jsonE$Temperature$Value,group=1 )) +
       ggplot2::geom_line() +
-      theme(axis.text.x = element_text(angle = 90))+
-      labs(x="Date", y="Temperature")
+      ggplot2::theme(axis.text.x =  ggplot2::element_text(angle = 90))+
+      ggplot2::labs(x="Date", y="Temperature")
 
 
   )

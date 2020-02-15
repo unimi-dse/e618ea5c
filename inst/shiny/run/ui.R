@@ -1,6 +1,6 @@
 # Defining Ui for shiny App
-ui<-
-shiny::fluidPage(
+ui <-
+  fluidPage(
   #Defining Mainpanel for creating different pages,
   #mtble shows temperature mean
   #mtble3 shows temperature maximum

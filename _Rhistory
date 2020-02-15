@@ -1,0 +1,37 @@
+class(jsonE)
+# Content from json to data.table
+jsonE <- fromJSON(jsonRespText)
+# Paste url from Accuweather site about 12 h forecast in Milan
+url <- paste("http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/25?apikey=yGAybGDi6GE4NUIp9ZH2sDi7AdEDorC6&language=it-it&details=true&metric=true")
+# Get forecast 12h of Milan
+result <- GET(url)
+# Get forecast 12h of Milan
+result <- GET(url)
+# Get forecast 12h of Milan
+httr::result <- GET(url)
+install.packages("httr")
+# Get forecast 12h of Milan
+httr::result <- GET(url)
+# Get forecast 12h of Milan
+httr::result <- GET(url)
+# Get forecast 12h of Milan
+base::result <- GET(url)
+# Paste url from Accuweather site about 12 h forecast in Milan
+url <- paste("http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/25?apikey=yGAybGDi6GE4NUIp9ZH2sDi7AdEDorC6&language=it-it&details=true&metric=true")
+# Get forecast 12h of Milan
+base::result <- GET(url)
+# Extract http request content
+httr::jsonRespText <- content(result, as="text")
+# Content from json to data.table
+jsonlite::jsonE <- fromJSON(jsonRespText)
+# Get column Temperature
+temp <- jsonE$Temperature
+install.packages("base")
+# Get forecast 12h of Milan
+base::result <- GET(url)
+# Get forecast 12h of Milan
+result <- GET(url)
+# Get forecast 12h of Milan
+base::result <- GET(url)
+# Get forecast 12h of Milan
+httr::result <- GET(url)
