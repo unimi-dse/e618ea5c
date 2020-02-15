@@ -2,8 +2,8 @@ Package: milanotempanalysis
 Type: Package
 Title: Temperature Analysis
 Version: 0.1.0
-Author: Laura Ciurca <lauraelena.ciurca@studenti.unimi.it> 
-Maintainer: The package maintainer <yourself@somewhere.net>
+Author: Laura Ciurca  
+Maintainer: Laura Ciurca <lauraelena.ciurca@studenti.unimi.it>
 Description: Temperature analysis project for the exam 'Coding for Data Science and Data Management'.
 License: GPL-3
 Encoding: UTF-8
