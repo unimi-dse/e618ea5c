@@ -10,7 +10,7 @@ devtools::install_github('unimi-dse/e618ea5c')
 ## Usage
 ```
 # load the package
-require(IfamazonratingsReliable)
+require(milanotempanalysis)
 ```
 ## Functions
 
