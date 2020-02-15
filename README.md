@@ -15,8 +15,7 @@ require(milanotempanalysis)
 ## Functions
 
 Once installed the needed packages (shiny, httr, jsonlite, ggplot2, DT, devtools), 
-it's possible to call the following functions:
+it's possible to call the following function to run the shiny App and the hole project:
 ```
 run()
-server()
 ```
